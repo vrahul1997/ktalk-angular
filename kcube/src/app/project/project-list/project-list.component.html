@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="card col-md-4" style="width:200px" *ngFor="let i of project$ | async ; let f = index">
+      <img class="card-img-top" src="{{i.imagepath}}" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">{{i.title}}</h4>
+        <p class="card-text">{{i.description}}</p>
+        <a class="btn btn-primary" (click)="selectedproject(f, i.title)">Detail</a>
+      </div>
+    </div>
+  </div>
+</div>

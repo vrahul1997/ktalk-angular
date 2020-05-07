@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row" *ngFor="let project_detail$ of project_detail$">
+        <div>
+            <img src="{{project_detail$.imagepath}}" alt="" width="100%">
+        </div>
+        <div>
+            <h5>About the project:</h5>
+            <p>{{project_detail$.title}}</p>
+            <br>
+            <h5>Description:</h5>
+            <p>{{project_detail$.description}}</p>
+        </div>
+    </div>
+</div>

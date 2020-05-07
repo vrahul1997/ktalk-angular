@@ -1,0 +1,5 @@
+[
+    {"imagepath": "/assets/images/project1.png", "title": "project1", "description": "This is a kcube project" },
+    {"imagepath": "/assets/images/project2.png", "title": "project2", "description": "This is a RPC project" },
+    {"imagepath": "/assets/images/project3.png", "title": "project3", "description": "This is a blueorigin project" }
+]
